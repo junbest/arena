@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 15" width="13" height="15">
+	<title>icon10-svg</title>
+	<defs>
+		<image width="34" height="25" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAZCAYAAABU+vysAAAABHNCSVQICAgIfAhkiAAAAO1JREFUSEtj/P///3+GQQAYRx2CFgvDI0T+fPvM8PUvkteYuRj4uZjJSnEkhshnhnuXHzN8BFn1+znD6dMPGD7+Q7KXiZdBzVSHQY4VJMbLoKQry8BPpLNIdMgthpXTDzM8IspwKQaPTE8GXaLUMjCQ6JC/DF8/f2P4Q5ThLAzcvJwMLESpJdkhDAwMr48zzFpzDRI9OAEvg2FIGIOLKJGuYBh1CGZIkZhGRqMGS2IbTazogTIaIoM2RP69YjiwehvD6XfI1S6qa1mEdBnCQ80YpJhoWbISbzZJKkkv0EgynnjFow5BD6vREEEPEQCJG8K2UYB53gAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="icon10" href="#img1" transform="matrix(1,0,0,1,-11,-4)"/>
+</svg>

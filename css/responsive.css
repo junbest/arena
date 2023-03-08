@@ -1,0 +1,328 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1399px){
+	
+}
+@media (min-width: 1400px) { 
+	
+}
+@media (min-width: 1200px) { 
+	
+}
+
+@media (max-width: 1199px) { 
+	
+}
+
+@media (max-width: 991.98px) {
+	html {
+	    font-size: 0.91vw;
+	}
+	.content_body {
+	    padding: 2rem 3rem 3rem 3rem;
+	}
+	.coinbuy_left {
+	    top: -100%;
+	    padding-top: 9rem;
+	    max-width: 36rem;
+	    left: 0;
+	    padding-bottom: 6rem;
+	}
+	.coinbuy_left.current {
+	    top: 0;
+	}
+	.hamburger-menu {
+		display: block;
+	}
+	header {
+	    background-color: #313a46;
+	    -webkit-box-pack: justify !important;
+	        -ms-flex-pack: justify !important;
+	            justify-content: space-between !important;
+	    -webkit-box-align: center;
+	        -ms-flex-align: center;
+	            align-items: center;
+	    padding: 2rem 3rem;
+	    z-index: 1026;
+	    border-bottom: 0.1rem solid #424A55;
+	}
+	header .menu_list{
+		display: none;
+	}
+	.arena_coin_right_icon .dropdown-menu {
+	    right: -4.8rem;
+	    left: auto !important;
+	}
+	.overlay{
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background-color: rgba(0, 0, 0 , 0.4);
+		z-index: 1022;
+		-webkit-transition: 0.4s;
+		-o-transition: 0.4s;
+		transition: 0.4s;
+		opacity: 0;
+		pointer-events: none;
+	}
+	.overlay.current{
+		opacity: 1;
+		pointer-events: all;
+	}
+	.sidebar_heading{
+		display: none;
+	}
+	.mb_menu_list .menu_list {
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	    background: transparent;
+	    -webkit-box-pack: center;
+	        -ms-flex-pack: center;
+	            justify-content: center;
+	    border-bottom: 0.1rem solid #424A55;
+	}
+	.mb_menu_list .menu_drop{
+		margin-top: 1.1rem;
+		background-color: #222831;
+		border-color: #323944;
+	}
+	.mb_menu_list .menu_list li .arena_p{
+		color: #fff; 
+	}
+	.mb_menu_list .menu_list{
+		margin-bottom: 3rem;
+	}
+	.menu_area>li{
+		padding-bottom: 0;
+	}
+	.menu_area li a{
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
+		background-color: transparent;
+	}
+	.menu_area li a:hover,
+	.menu_area li a.active{
+		background-color: #222831;
+	}
+	.admin_list{
+		display: none;
+	}
+	.admin_table tr td:first-child,
+	.admin_table tr td:nth-child(4),
+	.admin_table tr td:nth-child(6),
+	.admin_table tr td:nth-child(7),
+	.admin_table tr th:first-child,
+	.admin_table tr th:nth-child(4),
+	.admin_table tr th:nth-child(6),
+	.admin_table tr th:nth-child(7),
+	.admin_table tr th:nth-child(10),
+	.admin_table tr td:nth-child(10),
+	.admin_table tr td:nth-child(5),
+	.admin_table tr th:nth-child(5),
+	.admin_coinsell tr th:nth-child(12),
+	.admin_coinsell tr td:nth-child(12),
+	.admin_coinsell tr td:nth-child(8),
+	.admin_coinsell tr td:nth-child(8){
+		display: none;
+	}
+	.admin_table tr td:nth-child(3),
+	.admin_table tr th:nth-child(3){
+		display: block;
+	}
+	.admin_table tr td:nth-child(3) a{
+		white-space: nowrap;
+	}
+	.increment_box input {
+	    padding-left: 42rem;
+	}
+	.admin_ask_question tr th:first-child,
+	.admin_ask_question tr td:first-child{
+		display: table-cell;
+	}
+	.admin_ask_question tr th:nth-child(6),
+	.admin_ask_question tr td:nth-child(6),
+	.admin_ask_question tr th:nth-child(5),
+	.admin_ask_question tr td:nth-child(5),
+	.admin_ask_question tr th:nth-child(4),
+	.admin_ask_question tr td:nth-child(4),
+	.admin_ask_question tr th:nth-child(7),
+	.admin_ask_question tr td:nth-child(7){
+		display: table-cell !important;
+	}
+	.admin_account_table th:nth-child(4),
+	.admin_account_table td:nth-child(4),
+	.admin_account_table th:nth-child(1),
+	.admin_account_table td:nth-child(1){
+		display: table-cell !important;
+	}
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767.98px) {
+	.coinbuy_table td:nth-child(3),
+	.coinbuy_table th:nth-child(3){
+		display: none;
+	}
+	html {
+	    font-size: 1.4vw;
+	}
+	.coinbuy_left {
+	    max-width: 100%;
+	    height: auto;
+	}
+	.admin_account_table th:nth-child(2),
+	.admin_account_table td:nth-child(2),
+	.admin_account_table td:nth-child(3),
+	.admin_account_table td:nth-child(3),
+	.admin_transfer_table td:nth-child(4),
+	.admin_fee_payment_table th:nth-child(1),
+	.admin_fee_payment_table td:nth-child(1),
+	.admin_fee_payment_table th:nth-child(5),
+	.admin_fee_payment_table td:nth-child(5),
+	.admin_fee_payment_table th:nth-child(8),
+	.admin_fee_payment_table td:nth-child(8),
+	.admin_fee_payment_table th:nth-child(6),
+	.admin_fee_payment_table td:nth-child(6){
+		display: none !important;
+	}
+	.table_wrap{
+		overflow: auto;
+		scrollbar-width: none;
+    	-ms-overflow-style: none;
+	}
+	.table_wrap::-webkit-scrollbar{
+	    width: 0;
+	    height: 0;
+	}
+	.agency_table,
+	.agent_table,
+	.member_table {
+	    min-width: 930px;
+	    width: 100%;
+	}
+	.agency_table_wrap .table_top{
+		min-width: 930px;
+		width: 100%;
+	}
+	.inovoice_header .logo_box img {
+	    max-width: 6.5rem;
+	}
+	.inovoice_header .logo_text_box span {
+	    font-size: 2.3rem;
+	}
+	.inovoice_right_header h2 {
+	    font-size: 2.6rem;
+	}
+	.inovoice_address_box {
+	    padding-top: 20rem;
+	}
+	.inovoice_total_box_wrap {
+	    max-width: 29rem;
+	}
+	.inovoice_pdf_wrapper {
+	    padding: 7rem 3rem 5.5rem;
+	}
+	.increment_box input {
+	    padding-left: 22rem;
+	}
+	.logo_box img {
+	    width: 4.7rem;
+	}
+	.admin_ask_question tr th:nth-child(6),
+	.admin_ask_question tr td:nth-child(6){
+		display: none !important;
+	}
+	.admin_ask_question tr th:nth-child(5),
+	.admin_ask_question tr td:nth-child(5){
+		width: 	100%;
+	}
+	.admin_account_table th:nth-child(2),
+	.admin_account_table td:nth-child(2),
+	.admin_account_table th:nth-child(3),
+	.admin_account_table td:nth-child(3){
+		display: table-cell !important;
+		width: 	100%;
+	}
+
+	.admin_account_table th:nth-child(8),
+	.admin_account_table td:nth-child(8){
+		display: none;
+	}
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575.98px) {
+	html{
+		font-size: 1.43vw;
+	}
+	.login_wrappper {
+	    -webkit-box-align: start;
+	        -ms-flex-align: start;
+	            align-items: flex-start;
+	}
+	.login_box {
+	    max-width: 100%;
+	}
+	.login_modal .modal-dialog,
+	.coinbuy_modal_wrapper .modal-dialog{
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.modal-dialog{
+		margin-left: auto;
+	    margin-right: auto;
+	}
+	.increment_box input {
+	    padding-left: 18rem;
+	}
+	.mb_menu_list .menu_list {
+	    -webkit-box-orient: vertical;
+	    -webkit-box-direction: normal;
+	        -ms-flex-direction: column;
+	            flex-direction: column;
+	    -webkit-box-align: center;
+	        -ms-flex-align: center;
+	            align-items: center;
+	}
+	.coinbuy_modal_wrapper .modal-dialog{
+		max-width: 100%;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+        min-height: calc(100% - 1rem);
+	}
+	.arena_transfer_form .increment_box input {
+	    padding-left: 43rem;
+	}
+	.table_top_right .button{
+		display: block;
+	}
+	.input_box .nice-select::after {
+	    -webkit-transform-origin: 66% 36%;
+	        -ms-transform-origin: 66% 36%;
+	            transform-origin: 66% 36%;
+	    margin-top: -0.33rem;
+	}
+	.table_footer_last a {
+	    padding: 1rem 1.5rem 0.9rem;
+	}
+	.table_data td:nth-child(3) .line::before, 
+	.table_data td:last-child .line::before, 
+	.admin_table td:nth-child(4) .line::before {
+    	display: none;
+	}
+	.admin_fee_payment_table th:nth-child(9){
+		display: none;
+	}
+	.admin_fee_payment_table td:last-child{
+		text-align: right;
+	}
+
+	
+
+}
+
